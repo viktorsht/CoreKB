@@ -1,6 +1,8 @@
 library core_kb;
 
 export 'themes/theme_controller.dart';
+export 'controllers/controller.dart';
+export 'states/core_state.dart';
 
 import 'package:core_kb/themes/theme_controller.dart';
 import 'package:flutter_modular/flutter_modular.dart';

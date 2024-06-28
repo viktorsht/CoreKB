@@ -2,11 +2,11 @@ import 'package:flutter/material.dart';
 
 import 'core_controller.dart';
 
-abstract class CoreControllerNotifier<T> extends ChangeNotifier implements CoreController<T> {
+abstract class Notifier<T> extends ChangeNotifier implements CoreController<T> {
   
   T _state;
 
-  CoreControllerNotifier(this._state);
+  Notifier(this._state);
 
   @override
   T get state => _state;
